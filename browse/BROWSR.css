@@ -1,0 +1,32 @@
+
+.flex1-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    
+  }
+  .flex1-box{
+    width: 350px;
+      height: 450px;
+      background: lightblue;
+      color: white;
+      font-size: 25px;
+      text-align: center;
+      border-radius: 20px;
+      line-height: 200px;
+      margin: 30px;
+      line-height: 200px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+      transition: transform 0.3s ease; 
+    
+  }
+  .flex1-box:hover {
+    transform: scale(1.15); /* Scale up on hover */
+}
+
+

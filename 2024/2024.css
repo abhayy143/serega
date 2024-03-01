@@ -1,0 +1,314 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: #fff; 
+}
+.carousel{
+    height: 470px; 
+    perspective: 250px;    
+    
+}
+.carousel .carousel-item {
+	width: 470px;
+	background:lightblue;
+	padding: 60px;
+	height: auto;
+	text-align: center;
+    border-radius: 15px;
+}
+.img-area {
+	width: 100px;
+	height: 100px;
+	margin: 0 auto;
+	overflow: hidden;
+	border-radius: 50%;
+	border: inset 8px #f96d00;
+}
+        .img-area img{
+            width: 100%;
+        }
+        .testi p {
+	color: #262626;
+	font-size: 18px;
+	line-height: 1.9;
+}
+        .testi h4 {
+	font-size: 20px;
+	margin: 0;
+	color: #000;
+}
+        .testi h5 {
+	font-size: 14px;
+	letter-spacing: 5px;
+	margin: 7px 0;
+}
+.qqtt{
+	height: 140px;
+  padding-top: 50px;
+}
+.E-body{
+	height: 32px;
+}
+
+.E-body h1
+{
+	margin-bottom: 15px;
+	font-size: 30px;
+	text-align: center;
+	text-shadow: #000;
+	margin:15px;
+	color: #142d4c;
+	font-weight: bold;
+
+}
+
+#imgse {
+	display: block; /* Ensure the image behaves as a block element */
+	margin: 0 auto; /* Set left and right margins to auto to center the image horizontally */
+}
+.se24 h1{
+	text-align: center;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+
+
+.home-icon {
+    width: 30px;
+    height: 30px;
+	
+}
+
+header {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.logo {
+  margin-right: 10px; 
+  margin-top: 10px;/* Adjust as needed for spacing */
+}
+
+.logo img {
+  max-height: 100px; /* Adjust as needed */
+}
+
+/*serega*/
+.heading h1 {
+  font-size: 23px;
+  width: 100%;
+  text-align: center;
+font-weight: bold;
+
+}
+.heading  {
+ 
+	width: 100%;
+	text-align: center;
+  
+  }
+    
+
+
+
+  .flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link-left,
+.link-right {
+    flex: 1;
+    text-align: center;
+}
+
+.flex-box {
+    flex: 1;
+    text-align: center;
+}
+
+
+  .flex-box{
+      width: 300px;
+      height: 600px;
+      background: lightblue;
+      color: white;
+      font-size: 25px;
+      text-align: center;
+      border-radius: 20px;
+      line-height: 200px;
+      margin: 70px;
+      line-height: 200px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+      transition: transform 0.3s ease;  
+	 
+	  
+  }
+  .flex-box:hover {
+      transform: scale(1.05); /* Scale up on hover */
+  }
+
+ 
+
+
+
+.download{
+	width: 50px;
+	height: 50px;
+}
+
+
+   @media (max-width: 768px) {
+    /* Adjust styles for devices with a maximum width of 768px */
+    .container {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Adjust styles for devices with a maximum width of 480px */
+    .container {
+        padding: 5px;
+    }
+}
+
+
+        /* Footer Styles */
+        footer {
+          background-image: linear-gradient(274deg, #46c8d0, #6262e2 44%, #c962f7); /* Change colors as needed */
+          color: white; /* Text color */
+          padding: 20px; /* Adjust padding as needed */
+          text-align: center; /* Center align text */
+          
+        }
+.footer .container {
+  display: flex;
+  justify-content: space-between;
+  height: 300px;
+  width: 100%;
+}
+
+.footer .row {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.footer .col {
+  flex: 1;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer .col:last-child {
+  margin-right: 0px;
+}
+
+.footer h2 {
+  font-size: 35px;
+  margin-bottom: 10px;
+ 
+}
+
+.footer p {
+  font-size: 14px;
+  margin-bottom: 10px;
+;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer ul li {
+  margin-bottom: 5px;
+}
+
+.footer ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer ul li a:hover {
+  text-decoration: underline;
+  color: orange;
+}
+
+.navbar {
+  background-color: transparent;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  transition: background-color 0.5s ease;
+  z-index: 1000;
+}
+
+
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: inherit;
+  text-align: center;
+}
+
+.navbar li {
+  display: inline-block;
+}
+
+.navbar li a {
+  display: block;
+  padding: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+.navbar li a:hover {
+  background-color: #ddd;
+}
+
+
+
+
+
+
+
+.flex1-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  
+}
+.flex1-box{
+  width: 350px;
+    height: 450px;
+    background: lightblue;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 20px;
+    line-height: 200px;
+    margin: 30px;
+    line-height: 200px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease; 
+
+  
+}
+.flex1-box:hover {
+  transform: scale(1.15); /* Scale up on hover */
+}
+
