@@ -10683,3 +10683,26 @@ span {
   color: orange;
 }
 
+
+
+@media only screen and (max-width: 480px) {
+  .footer {
+    padding: 0px; /* Adjust padding as needed */
+  }
+  .footer .container {
+    max-width: 100%; /* Adjust width as needed */
+  }
+  .footer .row {
+    display: block; /* Stack columns vertically */
+  }
+  .footer .col {
+    width: 100%; /* Make columns full width */
+    margin-bottom: 0; /* Adjust margin as needed */
+  }
+  /* Adjust individual column styles as needed */
+  .footer .about,
+  .footer .follow,
+  .footer .contact {
+    text-align: center; /* Center align content */
+  }
+}
