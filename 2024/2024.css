@@ -71,6 +71,12 @@ body {
 	font-weight: bold;
 	font-size: 30px;
 }
+.se21 h1{
+	text-align: center;
+	font-weight: bold;
+	font-size: 30px;
+}
+
 
 
 
@@ -119,21 +125,12 @@ font-weight: bold;
     align-items: center;
 }
 
-.link-left,
-.link-right {
-    flex: 1;
-    text-align: center;
-}
 
-.flex-box {
-    flex: 1;
-    text-align: center;
-}
 
 
   .flex-box{
       width: 300px;
-      height: 600px;
+      height: 500px;
       background: lightblue;
       color: white;
       font-size: 25px;
@@ -240,40 +237,6 @@ font-weight: bold;
   color: orange;
 }
 
-.navbar {
-  background-color: transparent;
-  position: fixed;
-  width: 100%;
-  top: 0;
-  transition: background-color 0.5s ease;
-  z-index: 1000;
-}
-
-
-
-.navbar ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: inherit;
-  text-align: center;
-}
-
-.navbar li {
-  display: inline-block;
-}
-
-.navbar li a {
-  display: block;
-  padding: 20px;
-  text-decoration: none;
-  color: black;
-}
-
-.navbar li a:hover {
-  background-color: #ddd;
-}
 
 
 
@@ -311,4 +274,7 @@ font-weight: bold;
 .flex1-box:hover {
   transform: scale(1.15); /* Scale up on hover */
 }
+
+
+
 

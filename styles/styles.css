@@ -10623,12 +10623,14 @@ span {
           color: white; /* Text color */
           padding: 20px; /* Adjust padding as needed */
           text-align: center; /* Center align text */
+          height:fit-content;
+        
           
         }
 .footer .container {
   display: flex;
   justify-content: space-between;
-  height: 300px;
+
   width: 100%;
 }
 
