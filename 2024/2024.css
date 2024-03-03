@@ -8,6 +8,9 @@ body {
     perspective: 250px;    
     
 }
+
+    
+
 .carousel .carousel-item {
 	width: 400px;
 	background:lightblue;
@@ -17,6 +20,7 @@ body {
     border-radius: 15px;
     
 }
+
 
 .carousel-item p , h4 {
   font-weight: bold;
@@ -297,4 +301,12 @@ font-weight: bold;
   width: 100%; /* fill the entire width of the container */
   height: 100%; /* fill the entire height of the container */
   object-fit: fill; /* maintain aspect ratio while fitting within the container */
+}
+.mailbutton {
+  text-decoration: none;
+  cursor: pointer;
+}
+.mailbutton h3 {
+    font-size: 37px;
+  color: #fff; /* Change font color to white */
 }

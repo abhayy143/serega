@@ -10706,3 +10706,10 @@ span {
     text-align: center; /* Center align content */
   }
 }
+.mailbutton {
+  text-decoration: none;
+  cursor: pointer;
+}
+.mailbutton h3 {
+  color: #fff; /* Change font color to white */
+}

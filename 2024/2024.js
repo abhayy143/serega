@@ -9,8 +9,10 @@ $(document).ready(function(){
 	
 	function autoplay() {
 		$('.carousel').carousel('next');
-		timer = setTimeout(autoplay, 1750);
+		timer = setTimeout(autoplay, 2000);
 	}
+	
+	
 	
 	// Pause autoplay on hover
 	$('.carousel').hover(
