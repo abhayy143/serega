@@ -1,1 +1,1 @@
-Developed by Prashant & Abhayy
+Developed by Prashant
