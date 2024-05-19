@@ -13,6 +13,7 @@
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
   <link href="styles/styles.css" rel="stylesheet" type="text/css">
   <link href="styles/custom-responsive-styles.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="./styles/navBar.css">
   <script type="text/javascript" src="scripts/jquery-3.2.1.min.js"></script>
   <script type="text/javascript" src="scripts/all-plugins.js"></script>
   <script type="text/javascript" src="scripts/plugins-activate.js"></script>
@@ -20,44 +21,35 @@
 
 <body id="page-top">
 
-  <a class="menu-toggle rounded" href="#">
-    <i class="fa fa-bars"></i>
-  </a>
-  <nav id="sidebar-wrapper">
-    <ul class="sidebar-nav">
-      <li class="sidebar-brand">
-        <a class="smooth-scroll" href="#Header"></a>
-      </li>  
-      <li class="sidebar-nav-item">
-        <a class="smooth-scroll" href="#page-top">Home</a>
-      </li>
-
-      <li class = "sidebar-nav-item">
-      <a href="2024/2024.html" target="_self">Serega'24</a>
-      </li>
-      <li class = "sidebar-nav-item">
-        <a href="downloads/SEREGA 13th Edition.pdf"  target="_blank">Serega'23</a>
-        </li>
-        <li class = "sidebar-nav-item">
-          <a href="./2024/2024.html#catgories" target="_self">Browse Categories</a>
-          </li>
-      
-          <li class="sidebar-nav-item">
-            <a  class ="smooth-scroll" href="#aboutsreg" >About Serega</a>
-          </li>
-      <li class="sidebar-nav-item">
-        <a class="smooth-scroll" href="#Testimonials">Faculty Editors</a>
-      </li>
-      <li class="sidebar-nav-item">
-        <a  href="./2024/2024.html#ebody" target="_self">Editorial Board</a>
-      </li>
-     
-      <li class="sidebar-nav-item">
-        <a class="smooth-scroll" href="#Portfolio">Art Gallery</a>
-      </li>
-     
+  <nav>
+    <ul class="sidebar">
+      <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960"
+            width="26">
+            <path d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z" />
+          </svg></a></li>
+      <li><a href="2024/2024.html" target="_self">Serega'24</a></li>
+      <li><a href="downloads/SEREGA 13th Edition.pdf" target="_blank">Serega'23</a></li>
+      <li><a href="./2024/2024.html#catgories" target="_self">Browse Categories</a></li>
+      <li><a href="#aboutsreg">About Serega</a></li>
+      <li><a href="#Testimonials">Faculty Editors</a></li>
+      <li><a href="./2024/2024.html#ebody" target="_self">Editorial Board</a></li>
+      <li><a href="#Portfolio">Art Gallery</a></li>
+    </ul>
+    <ul class="mobileSize">
+      <li><a href="2024/2024.html" target="_self">Serega'24</a></li>
+      <li class="hideOnMobile"><a href="downloads/SEREGA 13th Edition.pdf" target="_blank">Serega'23</a></li>
+      <li class="hideOnMobile"><a href="./2024/2024.html#catgories" target="_self">Browse Categories</a></li>
+      <li class="hideOnMobile"><a href="#aboutsreg">About Serega</a></li>
+      <li class="hideOnMobile"><a href="#Testimonials">Faculty Editors</a></li>
+      <li class="hideOnMobile"><a href="./2024/2024.html#ebody" target="_self">Editorial Board</a></li>
+      <li class="hideOnMobile"><a href="#Portfolio">Art Gallery</a></li>
+      <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26"
+            viewBox="0 96 960 960" width="26">
+            <path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z" />
+          </svg></a></li>
     </ul>
   </nav>
+
   <!-- Header -->
   <section id="Banner" class="content-section">
     <div class="container content-wrap text-center">
@@ -215,7 +207,16 @@
 
   <!--  footer ends  -->
 
- 
+  <script>
+    function showSidebar() {
+      const sidebar = document.querySelector('.sidebar')
+      sidebar.style.display = 'flex'
+    }
+    function hideSidebar() {
+      const sidebar = document.querySelector('.sidebar')
+      sidebar.style.display = 'none'
+    }
+  </script>
 </body>
 
 
